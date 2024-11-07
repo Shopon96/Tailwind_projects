@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .head-section {
+        @apply text-[#333333] md:text-2xl text-lg font-semibold md:pt-8 pt-4 pb-4;
+    }
+    
+    .news-head{
+        @apply bg-[#E6EBF3] rounded-full text-center py-2 md:py-4 w-full font-medium  md:text-lg hover:bg-slate-300 transition-all hover:scale-105 duration-300 cursor-pointer;
+    }
+
+    
+    
+}

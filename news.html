@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="https://as1.ftcdn.net/v2/jpg/03/61/80/14/1000_F_361801412_kaORqRolA6KOhQOPzejdDQxcOv4BBaLm.jpg" type="image/x-icon">
+    <title>News tickerAI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body class="bg-white dark:bg-gray-900">
+
+    <header class= "md:px-14 md:py-2 py-2 px-2">
+        <nav class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-1 md:gap-3">
+                <img src="images/tickerAI-logo 1.png" alt="logo" class="w-10 md:w-fit">
+                <p class="text-[8px] md:xs dark:text-white">A Mark Cuban Company <br>
+                    AI-based Financial Market News Aggregator</p>
+            </div>
+            <div class="flex items-center gap-2 md:gap-5">
+                <a href="index.html">
+                    <button class="bg-[#5677AC] md:text-base text-ms md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold transition hover:scale-105 hover:translate-y-2">Personalize News </button>
+                </a>
+                <div class="text-[#5677AC] bg-[#5677AC26] md:2xl text-lg font-bold size-9 rounded-full flex items-center justify-center cursor-pointer trasition hover:scale-105 hover:translate-y-1">
+                    IK
+                </div>
+                <div>
+                    <button id="switch">
+                        <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" /> 
+                  </svg>
+                  </button>
+                </div>
+            </div>
+        </nav>
+     </header>
+    
+
+<!--  -->
+ <section class="dark:bg-gray-900  bg-[#F0F0F0] md:px-0 px-4 w-full min-h-screen">
+    <section class="container mx-auto md:py-12 py-8">
+        <div class="flex justify-between items-center pb-1 md:pb-2.5 border-b md:border-b-[3px] border-black md:mx-16 ">
+            <h3 class=" md:text-2xl text-lg font-semibold text-[#333333] uppercase dark:text-white">Personolize your news</h3>
+        </div>
+
+        <div class="bg-white max-w-lg mx-auto md:mt-10 mt-6 p-8">
+            <h3 class=" font-semibold md:text-2xl text-lg text-center text-[#333333]">Select your  Markets</h3>
+            <div class="py-5 space-y-5">
+                <p class="news-head">Stocks</p>
+                <p class="news-head">Crypto</p>
+                <p class="news-head">Economy & Business</p>
+                <p class="news-head" >Commodities & Forex</p>
+                <p class="news-head">Fixed Income</p>
+            </div>
+            <button class="bg-[#5677AC] w-full py-2 md:py-4 rounded-full text-white text-md md:text-lg hover:bg-blue-800 transition-all duration-300 hover:scale-105">Continue</button>
+        </div>
+    </section>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer Section -->
+ <footer class="text-black pb-5 text-center dark:text-white pt-5">
+    All Right reversed to TrickAI - 2024
+ </footer>
+
+
+
+
+
+
+
+
+
+
+ <script>
+    const htmlTag = document.getElementById("htmlTag");
+    document.getElementById("switch").addEventListener("click", function(){
+        htmlTag.classList.toggle("dark");
+    });
+</script>
+
+
+</body>
+</html>
